@@ -1,0 +1,11 @@
+<ul>
+    <% for (let i=0; i < aboutLinks.length; i++) { %>
+        <li>
+            <a href="<%= aboutLinks[i].href %>">
+                <span>
+                    <%= aboutLinks[i].text %>
+                </span>
+            </a>
+        </li>
+        <% } %>
+</ul>
